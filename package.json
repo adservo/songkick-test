@@ -1,0 +1,41 @@
+{
+  "name": "songkick-test",
+  "description": "Songkick test",
+  "version": "0.1.0",
+  "homepage": "none",
+  "author": {
+    "name": "Mark Selby",
+    "email": "mark@writebox.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:markselby/songkick-test.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "PRIVATE",
+      "url": "none"
+    }
+  ],
+  "main": "lib/scrape",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "dependencies": {
+    "async": "*",
+    "superagent": "*",
+    "cheerio": "*"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.2.0"
+  },
+  "keywords": []
+}
